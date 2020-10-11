@@ -1,0 +1,86 @@
+.main-container {
+  background-image: url("img/Webp.net-compress-image.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 375px;
+  position: relative;
+}
+
+.landing-content {
+  width: 100%;
+  height: 100%;
+}
+#name-section {
+  margin-top: -90px;
+}
+.mt-90 {
+  margin-top: 90px;
+}
+
+.title {
+  font-size: 4.5rem;
+  text-shadow: 3px 3px 3px #333;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  text-shadow: 2px 2px 2px #333;
+}
+
+.tm-intro-next {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+}
+
+.tm-down-arrow {
+  color: white;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 50%;
+  padding: 10px 22px 8px;
+  transition: all 0.5s ease;
+}
+
+.tm-down-arrow:hover,
+.tm-down-arrow:focus {
+  color: black;
+  background: white;
+}
+
+/* ------------------------------------------------------------------------About me */
+#about-me-container {
+  height: 100vh;
+  min-height: 375px;
+  position: relative;
+}
+
+#navbarNavAltMarkup{
+    float: left;
+    position: absolute;
+    left: 10px;
+    top: 45px;
+}
+
+a.white-nav.active {
+    color:  #2e708f !important;
+}
+
+a.white-nav {
+  color: #052838 !important;
+}
+
+#profile-image {
+  border-radius: 60%; 
+  width: 100px; 
+  height: 100px;
+  border: 3px solid black;
+}
+
+/* .progress-bar {
+  -webkit-transition: width 2.5s ease;
+  transition: width 2.5s ease;
+} */
